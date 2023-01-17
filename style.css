@@ -1,0 +1,32 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* background-color: antiquewhite; */
+}
+
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  width: 45vw;
+  height: 50vh;
+}
+
+.parent{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Heading{
+  text-align: center;
+  background-color: rgb(46, 222, 238);
+  padding: 1vh;
+}
+
+.Score{
+  margin-top: 3vh;
+  margin-bottom: 10vh;
+
+}
